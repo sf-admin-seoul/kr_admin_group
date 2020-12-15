@@ -11,7 +11,7 @@ public with sharing class Lesson3 {
         this.my_name = my_name; // 내 이름을 멤버 변수에 대입
         this.my_age = my_age; // 내 나이를 멤버 변수에 대입
 
-        showMyInfo();
+        showMyInfo(); // 생성자에서 다른 메서드를 호출한다.
     }
 
     // 멤버 변수에 대입 된 값을 이용해 내 정보를 출력
